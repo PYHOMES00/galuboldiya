@@ -15,9 +15,9 @@
 
     ],
 
-    "repository": "URL",
+    "repository": "https://github.com/DAXXTEAM/FileRenameBot",
 
-    "success_url": "url",
+    "success_url": "https://t.me/iam_daxx",
 
     "env": {
 
