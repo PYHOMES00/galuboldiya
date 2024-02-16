@@ -33,7 +33,7 @@ def profind(id):
 currentTime = datetime.datetime.now()
 
 if currentTime.hour < 12:
-	wish = "Good morning."
+	wish = " ɢᴏᴏᴅ ᴍᴏʀɴɪɴɢ ."
 elif 12 <= currentTime.hour < 12:
 	wish = 'Good afternoon.'
 else:
@@ -60,7 +60,7 @@ async def start(client,message):
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
 	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/DAXXSUPPORT") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://youtube.com/c/ALLTYPECC") ]  ]))
+	[InlineKeyboardButton("Subscribe 🧐", url="https://t.me/ALLTYPECC") ]  ]))
 	    return
 	if id:
 	        if id == procode:
