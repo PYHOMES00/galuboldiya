@@ -59,8 +59,8 @@ async def start(client,message):
 	**Document Or Video** and enter new filename to rename it__
 	""",reply_to_message_id = message.id ,  
 	reply_markup=InlineKeyboardMarkup(
-	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/DAXXSUPPORT") ], 
-	[InlineKeyboardButton("Subscribe 🧐", url="https://t.me/ALLTYPECC") ]  ]))
+	 [[ InlineKeyboardButton("Support 🇮🇳" ,url="https://t.me/honey_networks") ], 
+	[InlineKeyboardButton("Subscribe 🧐", url="https://t.me/honey_networks") ]  ]))
 	    return
 	if id:
 	        if id == procode:
